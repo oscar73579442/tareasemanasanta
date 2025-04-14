@@ -1,0 +1,36 @@
+.contenedor{
+    background-color: black;
+    display: grid;
+    grid-gap: 0;
+    grid-template-areas: 
+        "cabecera cabecera"
+        "cont1 cont2"
+        "pie pie";
+    grid-template-columns: 2fr 9fr;
+    padding: 5px;
+}
+
+.contenedor .cont2{
+    grid-area: cont2;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+footer {
+    height: 60px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: bold;
+  }
+
+  .titulo-recetas {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px 0 10px;
+    color: #800000;
+  }
